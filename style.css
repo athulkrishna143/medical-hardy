@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 300px;
 }
 
 .nav-list {
@@ -91,14 +91,14 @@ body {
   vertical-align: middle;
 }
 /* CARDS ---- */
+
 /* .card-container {
     
 } */
 .card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 50px;
+  gap: 20px;
   padding: 60px 0;
 }
 
