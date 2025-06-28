@@ -1,0 +1,168 @@
+:root {
+  --primary-color: #8d5cf6;
+  --second-color: #252b42;
+  --light-color: #737373;
+  --white-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6f7fb;
+}
+.section-bg{
+    background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav-list a {
+  color: var(--second-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.nav-list a:hover {
+  color: var(--primary-color);
+}
+
+.nav-auth {
+  display: flex;
+  gap: 20px;
+}
+
+.login {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.join {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  /* cursor: pointer; */
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+/* CARDS ---- */
+/* .card-container {
+    
+} */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 60px 0;
+}
+
+.card-text {
+  max-width: 500px;
+}
+
+.welcome {
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--second-color);
+  margin-bottom: 1rem;
+}
+
+.Quotes {
+  font-size: 1rem;
+  color: var(--light-color);
+  margin-bottom: 2rem;
+}
+
+.btn-auth {
+  display: flex;
+  gap: 15px;
+}
+
+.cta-button {
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cta-button.primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.cta-button.outline {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* Image Section */
+.card-image {
+
+position: relative;
+width:100%;
+max-width: 500px;
+
+}
+
+/* .main-image {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  border-radius: 8px;
+} */
