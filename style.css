@@ -91,15 +91,16 @@ body {
   cursor: pointer;
 }
 
-.material-symbols-outlined {
+/* .material-symbols-outlined {
   vertical-align: middle;
-}
+} */
+
 /* CARDS ---- */
 .card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  /* justify-content: center; */
+  justify-content: center;
     /* width: 1440;
 height: 777; */
 
@@ -188,13 +189,25 @@ width:100%;
 /* height: 682; */
 
 }
-.section-card {
-  /* flex-direction: row; */
-  /* display: flex; */
-}
+/* .section-card {
+
+  flex-direction: row;
+  display: flex;
+} */
 .section-image {
   flex-direction: row;
   display: flex;
 }
-.line.red { background: #e63946; width: 40px; height: 3px; margin: 10px auto; }
+.line.red { background: #e63946; width: 50px; height: 2px; margin: 10px auto; }
 .line.white { background: white; width: 40px; height: 3px; margin: 10px auto; }
+
+.doctor-highlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cta-button.learnmore{
+  background-color: transparent;
+  /* border: 1px solid var(--primary-color); */
+  color: var(--primary-color);
+}
